@@ -1,0 +1,9 @@
+export const WHATSAPP_TRIAL =
+  "https://wa.me/8801885361052?text=Hi%20Nitrox%20Chat%2C%20I%20want%20to%20start%20the%207%20days%20trial%20for%20AI%20Messenger%20Automation.";
+export const WHATSAPP_CONSULT =
+  "https://wa.me/8801885361052?text=Hi%20Nitrox%20Chat%2C%20I%20want%20a%20free%20consultation%20call%20for%20AI%20Messenger%20Automation.";
+export const FACEBOOK_URL = "https://www.facebook.com/infoNitroxMedia";
+export const EMAIL = "info.nitroxmedia@gmail.com";
+export const WHATSAPP_NUMBER = "+8801885361052";
+export const WEBSITE_URL = "https://nitroxchat.netlify.app";
+export const INSTAGRAM_URL = "https://www.instagram.com/nitroxmedia";
