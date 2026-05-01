@@ -1,7 +1,7 @@
 import { MessageSquare, Headset } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useReveal } from "@/hooks/use-reveal";
-import { openLiveChat } from "./ChatWidget";
+import { WHATSAPP_CONSULT } from "@/lib/links";
 
 export const LiveChat = () => {
   const ref = useReveal<HTMLDivElement>();
@@ -39,10 +39,12 @@ export const LiveChat = () => {
             <Button
               variant="premium"
               size="lg"
-              onClick={openLiveChat}
+              asChild
               className="w-full md:w-auto"
             >
-              <MessageSquare className="mr-1 h-5 w-5" /> Open Live Chat
+              <a href={WHATSAPP_CONSULT} target="_blank" rel="noopener noreferrer">
+                <MessageSquare className="mr-1 h-5 w-5" /> Open Live Chat
+              </a>
             </Button>
           </div>
         </div>

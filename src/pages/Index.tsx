@@ -9,7 +9,7 @@ import { TrialCTA } from "@/components/site/TrialCTA";
 import { FAQ } from "@/components/site/FAQ";
 import { LiveChat } from "@/components/site/LiveChat";
 import { Footer } from "@/components/site/Footer";
-import { ChatWidget } from "@/components/site/ChatWidget";
+
 import { faqs } from "@/lib/faqs";
 
 const Index = () => {
@@ -58,7 +58,7 @@ const Index = () => {
       <FAQ />
       <LiveChat />
       <Footer />
-      <ChatWidget />
+
     </main>
   );
 };
